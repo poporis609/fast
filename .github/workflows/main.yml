@@ -42,7 +42,7 @@ jobs:
         with:
           repository: poporis609/deployment #본인에 맞게 수정
           ref: main  # branch
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GIH_TOKEN }}
 
       - name: k8s manifest update
         run: |
