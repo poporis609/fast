@@ -25,7 +25,7 @@ app.add_middleware(
 # def hello():
 #     return {"message": "hello world"}
 
-
+####
 app.include_router(question_router.router)
 # include_router는 함수고, question_router.py의 router는 /api/question으로 잡아놓음.
 # 결국 누군가 main.app의 /api/question으로 오면 domain\question\question_router.py로 전달
